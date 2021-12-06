@@ -63,7 +63,7 @@ export default function App() {
    return (
       <Page>
           <View style={styles.container}>
-          <Image source={require('./src/imagens/R.png')} 
+          <Image source={require('./src/imagens/logo2.png')} 
           style={styles.logo}
           
           />
@@ -101,7 +101,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#f3f3ff'
+    backgroundColor: ''
   },
 
   psw: {
