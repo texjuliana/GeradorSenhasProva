@@ -14,7 +14,7 @@ export default function App() {
     let pass = '';
     let n = charset.length;
 
-    if (size < 1 || size  > 15 ){
+    if (size < 1 || size  > 16 ){
         alert("Tamanho da senha invalido!!")
     }else{
         
